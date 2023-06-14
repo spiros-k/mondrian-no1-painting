@@ -12,13 +12,18 @@
     But grid lines are transparent!
     */
     body{
+      background-color: #fcfcfc;
+      display: flex;
+      justify-content: center;
+    }
+    .container{
         display: grid;
         grid-template-columns: 320px 360px;
         grid-template-rows: 414px 300x;
         gap: 9px;
         width: 748px;
         height: 748px;
-        border: solid 1px rgba(5, 255, 63, 0);
+        border: solid 0.5px rgb(255, 255, 255);
         background-color: rgb(0, 0, 0);
         /* background-color: rgb(1, 104, 66); */
       }
@@ -28,18 +33,18 @@
         height: 414px;
       }
       .white-1{
-        background-color: rgb(251, 251, 242);
+        background-color: #F0F1EC;
         width: 419px;
         height: 414px;
         grid-area: 1/2/2/4;
       }
       .white-2{
-        background-color: rgb(251, 251, 242);
+        background-color: #F0F1EC;
         width: 320px;
         height: 295px;
       }
       .white-3{
-        background-color: rgb(251, 251, 242);
+        background-color: #F0F1EC;
         width: 360px;
         height: 295px;
       }
@@ -50,7 +55,7 @@
         grid-area: 2/3/2/4;
       }
       .white-5{
-        background-color: rgb(251, 251, 242);
+        background-color: #F0F1EC;
         width: 50px;
         height: 175px;
         grid-area: 2/3/4/4;
@@ -66,20 +71,20 @@
         align-self: center;
       }
       .white-4{
-        background-color: rgb(251, 251, 242);
+        background-color: #F0F1EC;
         width: 320px;
-        height: 20px;
+        height: 21px;
       }
       .yellow{
         background-color: #F9D01E;
         width: 198px;
-        height: 20px;
+        height: 21px;
         grid-area: 3/2/4/3;
       }
       .black{
         background-color: rgb(30, 30, 30);
         width: 153px;
-        height: 20px;
+        height: 21px;
         grid-area: 3/2/4/3;
         order: 3;
       }
